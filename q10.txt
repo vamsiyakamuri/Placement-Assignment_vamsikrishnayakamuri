@@ -1,0 +1,32 @@
+The function count_pos_tags takes a text as input and initializes counters for verbs, nouns, pronouns, and adjectives.
+
+The text is split into individual words using the split method and stored in the words list.
+
+A loop is used to iterate through each word in the words list.
+
+Inside the loop, various conditions are checked to determine the part of speech of each word:
+
+If a word ends with 'ing' or 'ed', it is considered a verb, and the verb counter (verbs) is incremented.
+If a word ends with 's' or 'es', it is considered a noun, and the noun counter (nouns) is incremented.
+If a word is a pronoun (e.g., he, she, it, they, we, I, you), it is considered a pronoun, and the pronoun counter (pronouns) is incremented.
+If a word ends with 'ful' or 'ous', it is considered an adjective, and the adjective counter (adjectives) is incremented.
+After iterating through all the words, the counts of verbs, nouns, pronouns, and adjectives are stored in a dictionary called pos_counts.
+
+The pos_counts dictionary is returned from the function.
+
+In the main part of the code, the user is prompted to enter a phrase or paragraph.
+
+The input function is used to read the user's input and store it in the variable text.
+
+The count_pos_tags function is called with the text as an argument, and the returned counts are stored in the counts variable.
+
+The counts of verbs, nouns, pronouns, and adjectives are printed using a loop that iterates through the items of the counts dictionary.
+
+The code allows the user to input a phrase or paragraph, and then it analyzes the text to count the occurrences of verbs, nouns, pronouns, and adjectives. It provides a simple way to perform basic part-of-speech analysis without using any external libraries.
+
+
+
+
+
+
+

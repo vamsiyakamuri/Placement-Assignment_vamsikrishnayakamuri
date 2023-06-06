@@ -1,0 +1,11 @@
+This program performs the following tasks:
+
+Downloads the data from the provided link.
+Converts the data into a pandas DataFrame.
+Saves the DataFrame as a CSV file named "earth_meteorites.csv".
+Performs the requested analysis and provides insights.
+The insights drawn from the analysis are as follows:
+
+Get all the Earth meteorites that fell before the year 2000.
+Get all the Earth meteorites coordinates that fell before the year 1970.
+Assuming that the mass of the Earth meteorites was in kg, get all those whose mass was more than 10000 kg.
